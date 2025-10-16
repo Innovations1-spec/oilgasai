@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OilGasAI | AI for Predictive Maintenance & Emissions Compliance</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans">
+  <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-center py-10">
+    <h1 class="text-4xl font-bold text-cyan-400">OilGasAI</h1>
+    <p class="text-lg mt-2">AI for Predictive Maintenance and Emissions Compliance</p>
+  </header>
+
+  <nav class="flex justify-center bg-blue-900 py-4 space-x-6 text-cyan-300 font-semibold">
+    <a href="#about" class="hover:text-white transition">About</a>
+    <a href="#technology" class="hover:text-white transition">Technology</a>
+    <a href="#demo" class="hover:text-white transition">Demo</a>
+    <a href="#usecases" class="hover:text-white transition">Use Cases</a>
+    <a href="#contact" class="hover:text-white transition">Contact</a>
+  </nav>
+
+  <section id="about" class="text-center py-16 px-6">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-4">About OilGasAI</h2>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-300">
+      OilGasAI integrates large language models (LLMs), edge AI, and real-time sensor data to help oil and gas operators monitor emissions, predict equipment failure, and automate compliance reporting. The system uses <span class="text-cyan-400 font-semibold">Hugging Face, LangChain, PyTorch</span>, and <span class="text-cyan-400 font-semibold">NVIDIA RTX PRO 6000</span> GPUs, trained on over <span class="font-semibold">1 TB</span> of field and regulatory datasets.
+    </p>
+  </section>
+
+  <section id="technology" class="bg-gray-900 py-16 px-6">
+    <h2 class="text-3xl font-bold text-center text-cyan-400 mb-8">Our Technology</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-800 rounded-2xl p-6 shadow-md hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">Data Ingestion</h3>
+        <p>Low-cost methane, flow, and temperature sensors send continuous data to edge nodes powered by Raspberry Pi and Jetson devices.</p>
+      </div>
+      <div class="bg-gray-800 rounded-2xl p-6 shadow-md hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">Calibration System</h3>
+        <p>Our simulation and calibration framework replicates field conditions and monitors sensor drift for precise, reliable measurements.</p>
+      </div>
+      <div class="bg-gray-800 rounded-2xl p-6 shadow-md hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">AI + LLM Engine</h3>
+        <p>Custom-trained transformer and CNN models analyze real-time data for predictive maintenance, anomaly detection, and compliance automation.</p>
+      </div>
+      <div class="bg-gray-800 rounded-2xl p-6 shadow-md hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">Deployment</h3>
+        <p>Containerized inference via Docker, FastAPI, and Kubernetes ensures scalable, low-latency AI across cloud and edge environments.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="text-center py-16 px-6">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-6">Demo</h2>
+    <p class="text-lg text-gray-300 mb-6">Experience the OilGasAI platform in action.</p>
+    <a href="https://shorturl.at/4fXC3" target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-400 text-gray-900 font-semibold py-3 px-8 rounded-lg transition">View Live Demo</a>
+  </section>
+
+  <section id="usecases" class="bg-gray-900 py-16 px-6">
+    <h2 class="text-3xl font-bold text-center text-cyan-400 mb-8">Use Cases & Impact</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">Predictive Maintenance</h3>
+        <p>Anticipate failures before they occur, reducing downtime and maintenance costs across distributed assets.</p>
+      </div>
+      <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">Emissions Compliance</h3>
+        <p>Automate methane detection and quantification aligned with EPA, OGMP 2.0, and regional environmental frameworks.</p>
+      </div>
+      <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-cyan-400/30 transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-cyan-300 mb-2">Continuous Monitoring</h3>
+        <p>Integrate real-time multi-sensor data into adaptive AI systems for 24/7 insights and performance tracking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="text-center py-16 px-6">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-4">Contact</h2>
+    <p>Email: <span class="text-cyan-400">kiplimoelijah82@gmail.com</span></p>
+    <p>GitHub: <a href="https://github.com/Innovations1-spec" target="_blank" class="text-cyan-400 hover:underline">Innovations1-spec</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/elijahkiplimo" target="_blank" class="text-cyan-400 hover:underline">Elijah Kiplimo</a></p>
+  </section>
+
+  <footer class="bg-blue-900 text-center py-4 text-gray-300">
+    <p>© 2025 OilGasAI | Built by Elijah Kiplimo</p>
+  </footer>
+</body>
+</html>
